@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merry Christmas, Sharon 🎄🤍</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffe6eb, #fff0f5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 800px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d6336c;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #e03131;
+      margin-bottom: 40px;
+      font-weight: 500;
+    }
+
+    .cards {
+      display: grid;
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(214, 51, 108, 0.15);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: reveal 1.2s ease forwards;
+    }
+
+    .card:nth-child(1) { animation-delay: 0.5s; }
+    .card:nth-child(2) { animation-delay: 2s; }
+    .card:nth-child(3) { animation-delay: 3.5s; }
+    .card:nth-child(4) { animation-delay: 5s; }
+
+    .card h2 {
+      color: #e03131;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    @keyframes reveal {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .heart {
+      margin-top: 30px;
+      font-size: 1.5rem;
+      color: #ff4d6d;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Merry Christmas, Sharon 🎄🤍</h1>
+    <div class="subtitle">A little Christmas note from my heart</div>
+    <div class="cards">
+      <div class="card">
+        <h2>How You Entered</h2>
+        <p>
+          You walked into my life like a gentle snowfall,
+quietly, magically, and before I knew it,
+you had warmed a place in my heart that felt impossible.
+This Christmas, I’m reminded how lucky I am for you.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Why You Matter</h2>
+        <p>
+          You are my comfort zone, my cozy corner by the fire.
+Even when the world feels cold and heavy,
+your presence makes everything brighter, softer, warmer.
+You’re the twinkle lights on my darkest days.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Grateful Heart</h2>
+        <p>
+          I’m endlessly grateful for you this holiday season.
+For staying, caring, and being my forever best friend.
+My ungrateful potato, 
+you’re the gift I never knew I needed, wrapped in love.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Forever Fun</h2>
+        <p>
+          HATE UH TO INFINITY ALWAYS
+        </p>
+      </div>
+    </div>
+
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
